@@ -31,7 +31,7 @@ ul>li {
 }
 
 .rent {
-    background-color: #0c0f12;
+    background: radial-gradient(#24502D, #0a1e03);
     color: white;
     font-family: Arial, sans-serif;
     padding-top: 80px;
@@ -69,6 +69,7 @@ ul>li {
 
 .rent-terms__item {
     text-align: center;
+    width: 120px;
 }
 
 .rent-terms__img {
@@ -100,21 +101,17 @@ ul>li {
     width: 80%;
 }
 
-@media (min-width: 425px) and (max-width: 600px) {
+@media (max-width: 768px) {
     .rent__img {
         display: none;
     }
 
     .rent {
-        background-color: #08d4b9;
+        background: #42428d;
     }
 }
 
 @media (min-width: 1024px) {
-    .rent {
-        background-color: #42428d;
-    }
-
     .rent__img {
         width: 800px;
     }
